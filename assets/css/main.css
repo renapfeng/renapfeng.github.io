@@ -2664,7 +2664,7 @@ input, select, textarea {
 		}
 
 		header.major.special {
-			text-align: center;
+			text-align: left;
 		}
 
 			header.major.special h2:after {
