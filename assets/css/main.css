@@ -3784,7 +3784,7 @@ input, select, textarea {
 
 		}
 
-h3.course {
+h4.course {
   display: flex;
   justify-content: space-between; /* pushes name left, dates right */
   align-items: baseline;          /* keeps text aligned nicely */
