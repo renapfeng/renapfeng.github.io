@@ -2657,23 +2657,6 @@ input, select, textarea {
 					margin-left: auto;
 					margin-right: auto;
 				}
-		/* header.major h2 {
-			font-size: 2em;
-		}
-
-			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
-			}
-
-				section.special header.major h2:after, article.special header.major h2:after {
-					margin-left: auto;
-					margin-right: auto;
-				} */
 
 		header.major p {
 			font-size: 1.25em;
@@ -3046,7 +3029,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
-					.spotlight .content header.major h2:after {
+					.spotlight .content header.major h3:after {
 						margin-left: auto;
 						margin-right: auto;
 					}
@@ -3561,7 +3544,7 @@ input, select, textarea {
 			color: #636363;
 		}
 
-		#main header.major h2:after {
+		#main header.major h3:after {
 			background-color: #d80768;
 			/* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
