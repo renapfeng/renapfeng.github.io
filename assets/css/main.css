@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #c2dc67;
+		background-color: #aecf7f;
 		color: rgb(8, 103, 154);
 	}
 
@@ -2647,7 +2647,7 @@ input, select, textarea {
 			header.major h3:after {
 				display: block;
 				content: '';
-				width: 30em;
+				width: 40em;
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
@@ -3352,7 +3352,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: rgb(8, 103, 154);
 		}
 
 		#main blockquote {
