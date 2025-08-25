@@ -3293,7 +3293,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(8, 103, 154, 0.126);
+						background-color: rgba(8, 103, 154, 0.745);
 					}
 
 					#nav ul li a.active {
@@ -3305,7 +3305,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(8, 103, 154, 0.377);
+			background-color: rgba(8, 103, 154, 0.745);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
