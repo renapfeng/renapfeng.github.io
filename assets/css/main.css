@@ -194,8 +194,8 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		line-height: 1.5;
+        font-weight: bold;
+  		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
 	}
@@ -311,7 +311,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: rgb(8, 103, 154);
 	}
 
 	h1, h2, h3, h4, h5, h6 {
