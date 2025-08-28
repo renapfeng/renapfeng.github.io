@@ -3808,18 +3808,16 @@ a:active {
   color: #c9f290;  /* when clicked */
 }
 
-
-/* Base gallery layout */
+/* Gallery container */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); /* desktop: 4 cols */
-  gap: 15px;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 12px; /* nice side padding on small screens */
+  grid-template-columns: repeat(4, 1fr); /* always 4 per row */
+  gap: 15px;               /* spacing between photos */
+  max-width: 1000px;       /* optional: control overall width */
+  margin: 0 auto;          /* center on page */
 }
 
-/* Make the whole tile clickable */
+/* Make links fill their grid cell */
 .gallery a {
   display: block;
 }
@@ -3827,28 +3825,15 @@ a:active {
 /* Image styling */
 .gallery a img {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* square thumbnails; remove if you prefer natural ratio */
-  object-fit: cover;     /* tidy cropping inside the square */
-  border-radius: 10px;
+  aspect-ratio: 1 / 1;     /* square tiles */
+  object-fit: cover;       /* crops to fit nicely */
+  border-radius: 8px;      /* optional rounded corners */
   display: block;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* Hover effects only on devices that support hover (prevents weird taps on mobile) */
-@media (hover: hover) {
-  .gallery a img:hover {
-    transform: scale(1.04);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-  }
-}
-
-/* Breakpoints */
-@media (max-width: 1024px) {
-  .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } /* 3 cols */
-}
-@media (max-width: 768px) {
-  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } /* 2 cols */
-}
-@media (max-width: 480px) {
-  .gallery { grid-template-columns: 1fr; }                        /* 1 col */
+/* Hover effect */
+.gallery a img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
