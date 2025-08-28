@@ -3789,3 +3789,20 @@ h4.course {
   justify-content: space-between; /* pushes name left, dates right */
   align-items: baseline;          /* keeps text aligned nicely */
 }
+
+a:link {
+  color: #d80768;    /* unvisited link */
+}
+
+a:visited {
+  color: #d80768;  /* visited link */
+}
+
+a:hover {
+  color: #c9f290;     /* when mouse hovers */
+}
+
+a:active {
+  color: #c9f290;  /* when clicked */
+}
+
